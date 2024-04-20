@@ -1,5 +1,5 @@
-api_id = "25284119"
-api_hash = "a17e15f84e6cabf51a0cce7fe48f7c"
+api_id = "29403305"
+api_hash = "54c435573d0f2d9dada270a0cb493b36"
 bot_token = "6686178135:AAENSozCW0yo6oRNkyGkDX2rQOCGyAh7Bpo"
 sudo_users = "6687634412"
 auth_groups = "-1002077871846"
