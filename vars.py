@@ -1,0 +1,5 @@
+api_id = "25284119"
+api_hash = "a17e15f84e6cabf51a0cce7fe48f7c"
+bot_token = "7065535379:AAH9lOYFgSPttP5EOJTxbqccL9KqA2VI"
+sudo_users = "841021123"
+auth_groups = "-1002053823532"
