@@ -34,7 +34,7 @@ bot = Client(
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_photo(
     photo="https://telegra.ph/file/69523f2e37ddf316b1623.jpg",
-    caption="Hey Freind 😎 I Am A Bot For Download 𝙑𝙄𝘿𝙀𝙊 From Your **.TXT** File. \n\n **ᗷOT ᵐᵃᵈᵉ ᵇʸ ՏᑌᖇYᗩ ᗷIՏᕼᑎOI 🚩** \n Send me /BISHNOI Command And Follow Steps..")
+    caption="Hey Freind 😎 I Am A Bot For Download 𝙑𝙄𝘿𝙀𝙊 From Your **.TXT** File. \n\n **ᗷOT AKKI 🚩** \n Send me /AKKI Command And Follow Steps..")
 
 
 @bot.on_message(filters.command("stop"))
@@ -44,12 +44,12 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["BISHNOI"]))
+@bot.on_message(filters.command(["AKKI"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('Send me **TXT File**⚡️')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
-    await bot.send_document(-1002053823532, x)
+    await bot.send_document(-1002077871846, x)
     await input.delete(True)
 
     path = f"./downloads/{m.chat.id}"
@@ -193,7 +193,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⏬️ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶 ⏬️... »**\n\n**🧾 𝑵𝒂𝒎𝒆 »** `{name}\n♻️ 𝑸𝒖𝒂𝒍𝒊𝒕𝒚 » {raw_text2}`\n\n**🔗 𝑼𝑹𝑳 »** `{url}`\n\n **🚩𝑩𝑶𝑻 ᵐᵃᵈᵉ ᵇʸ 𝐒𝐔𝐑𝐘𝐀 𝐁𝐈𝐒𝐇𝐍𝐎𝐈 ❤️**"
+                    Show = f"**⏬️ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶 ⏬️... »**\n\n**🧾 𝑵𝒂𝒎𝒆 »** `{name}\n♻️ 𝑸𝒖𝒂𝒍𝒊𝒕𝒚 » {raw_text2}`\n\n**🔗 𝑼𝑹𝑳 »** `{url}`\n\n **🚩AKKI ❤️**"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
