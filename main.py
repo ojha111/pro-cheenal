@@ -33,7 +33,7 @@ bot = Client(
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_photo(
-    photo="https://telegra.ph/file/69523f2e37ddf316b1623.jpg",
+    photo="https://telegra.ph/file/fd3eb065057bdbfe2404b.jpg",
     caption="Hey Freind 😎 I Am A Bot For Download 𝙑𝙄𝘿𝙀𝙊 From Your **.TXT** File. \n\n **ᗷOT AKKI 🚩** \n Send me /AKKI Command And Follow Steps..")
 
 
