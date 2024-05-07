@@ -22,13 +22,10 @@ from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-bot = Client(
-    "bot",
-    api_id=api_id,
-    api_hash=api_hash,
-    bot_token=bot_token,
-)
-
+bot = Client("bot",
+             bot_token= "6548987137:AAGiKMfZ6c7i7hSsSpQdhXjHd_UCfjmu7Eo",
+             api_id= 28528007,
+             api_hash= "38464da16c80310cabc8d13952419cf3"
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
